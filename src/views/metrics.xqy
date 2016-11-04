@@ -58,7 +58,7 @@ let $content :=
                  {format-number(xdmp:estimate(/out:outpatient-claim), '#,###')}
                </td>
                <td>
-                  <a href="list-inpatient-claims.xqy">List Outpatient Claims</a>
+                  <a href="list-outpatient-claims.xqy">List Outpatient Claims</a>
                </td>
             </tr>
             <tr>
@@ -69,7 +69,7 @@ let $content :=
                  {format-number(xdmp:estimate(/r:rx), '#,###')}
                </td>
                <td>
-                  <a href="list-inpatient-claims.xqy">List Prescription Claims</a>
+                  <a href="list-rx-claims.xqy">List Prescription Claims</a>
                </td>
             </tr>
           </tbody>
