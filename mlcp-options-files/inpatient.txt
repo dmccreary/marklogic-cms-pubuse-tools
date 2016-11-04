@@ -13,6 +13,9 @@ delimited_text
 -output_uri_prefix
 /claims/inpatient/
 
+-uri_id
+CLM_ID
+
 -namespace
 https://www.cms.gov/claims/inpatient
 

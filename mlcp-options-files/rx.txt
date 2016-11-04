@@ -13,6 +13,9 @@ delimited_text
 -output_uri_prefix
 /claims/rx/
 
+-uri_id
+PDE_ID
+
 -namespace
 https://www.cms.gov/claims/rx
 

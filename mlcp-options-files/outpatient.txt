@@ -11,7 +11,10 @@ delimited_text
 .xml
 
 -output_uri_prefix
-/claims/outpatient/
+/claims/
+
+-generate_uri
+true
 
 -namespace
 https://www.cms.gov/claims/outpatient
