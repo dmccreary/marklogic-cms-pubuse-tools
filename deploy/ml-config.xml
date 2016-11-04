@@ -251,6 +251,43 @@
           <range-value-positions>false</range-value-positions>
         </range-element-index>
 -->
+        <!-- Procedures -->
+        <range-path-index>
+          <scalar-type>string</scalar-type>
+          <collation>http://marklogic.com/collation/codepoint</collation>
+          <path-expression>/claim/procedures/procedure/name</path-expression>
+          <range-value-positions>false</range-value-positions>
+          <invalid-values>reject</invalid-values>
+        </range-path-index>
+        
+        <!-- Diagnoses -->
+        <range-path-index>
+          <scalar-type>string</scalar-type>
+          <collation>http://marklogic.com/collation/codepoint</collation>
+          <path-expression>/claim/diagnoses/diagnosis/name</path-expression>
+          <range-value-positions>false</range-value-positions>
+          <invalid-values>reject</invalid-values>
+        </range-path-index>
+        
+        <!-- SPL -->
+        <!-- active ingredients 
+        <range-path-index>
+          <scalar-type>string</scalar-type>
+          <collation>http://marklogic.com/collation/codepoint</collation>
+          <path-expression>/hl7:document//hl7:activeIngredient/hl7:activeIngredientSubstance/hl7:name</path-expression>
+          <range-value-positions>false</range-value-positions>
+          <invalid-values>reject</invalid-values>
+        </range-path-index>
+        -->
+        <!-- inactive ingredients 
+        <range-path-index>
+          <scalar-type>string</scalar-type>
+          <collation>http://marklogic.com/collation/codepoint</collation>
+          <path-expression>/hl7:document//hl7:inactiveIngredient/hl7:inactiveIngredientSubstance/hl7:name</path-expression>
+          <range-value-positions>false</range-value-positions>
+          <invalid-values>reject</invalid-values>
+        </range-path-index>
+        -->
       </range-element-indexes>
       <range-element-attribute-indexes>
 <!--
