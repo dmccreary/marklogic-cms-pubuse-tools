@@ -35,7 +35,7 @@ declare function style:header() as element() {
                     <span class="sr-only">Toggle navigation</span>
                 </button>
                 <a class="navbar-brand" href="/index.xqy"><img 
-                src="/resources/images/mantis-logo.png" height="80" style="margin-top:-30px;" alt="Mantis Logo"/></a>
+                src="/resources/images/marklogic.png" alt="MarkLogic Logo"/></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -45,9 +45,9 @@ declare function style:header() as element() {
                 <ul class="nav navbar-nav navbar-form navbar-center">
                 <!-- Main Searchbar -->
                   <li>
-                     <form class="navbar-form" role="search" action="/search/search-companies-service.xqy">
+                     <form class="navbar-form" role="search" action="/search/search-glossary-service.xqy">
                         <div class="input-group">
-                            <input type="search" class="form-control" size="50" placeholder="Search Companies" name="q"/>
+                            <input type="search" class="form-control" size="50" placeholder="Search Claims" name="q"/>
                             <input type="hidden"  name="debug" value="false"/>
                                 <div class="input-group-btn">
                                     <button class="btn btn-default" type="submit">Search</button>

@@ -5,7 +5,7 @@ xquery version "1.0-ml";
 import module namespace style="http://danmccreary.com/style" at "/modules/style.xqy";
 declare option xdmp:output "method=html";
 
-let $title := 'Optum Mantis Tools'
+let $title := 'MarkLogic CMS Claims Public Use Benchmarks'
 
 let $content := 
 <div class="content">
